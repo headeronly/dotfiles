@@ -1,0 +1,24 @@
+alias ls='LANG=C ls --group-directories-first --human-readable --classify --color=auto'
+
+[ -n "$KSH_VERSION" ] && alias ls='ls --human-readable --classify --color=auto'
+
+alias l=ls
+alias la='l --almost-all'
+alias ll='l -l'
+alias lal='ll --all'
+alias lla=lal
+
+alias lr='l --recursive'
+alias lar='lr --almost-all'
+alias llr='lr -l'
+alias lalr='llr --all'
+alias llar=lalr
+
+alias mv='mv --interactive'
+
+alias md=mkdir
+alias rd=rmdir
+
+alias v=vim
+
+alias markdown='markdown --html4tags'

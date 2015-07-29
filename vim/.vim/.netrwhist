@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/headeronly'
+let g:netrw_dirhist_2='/home/headeronly/.vim'
+let g:netrw_dirhist_3='/home/headeronly/projects/hydra/src'
+let g:netrw_dirhist_4='/home/headeronly/include/hdr0/audio'

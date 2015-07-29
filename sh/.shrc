@@ -1,0 +1,10 @@
+[ -r "$HOME/.aliases" ] && . "$HOME/.aliases"
+
+[ -r "$HOME/share/kbd/keymaps/macbook-uk.map" ] && sudo loadkeys "$HOME/share/kbd/keymaps/macbook-uk.map"
+
+# Enable Control-S and Control-Q for Vim mapping
+stty -ixon
+
+PS1=$'\n\e[36m$(logname)@$(hostname)\e[0m:\e[1;36m$PWD\e[0m\n $ '
+
+[ -n "$KSH_VERSION" ] && [ -r "$HOME/.kshrc" ] && . "$HOME/.kshrc"
