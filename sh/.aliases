@@ -1,5 +1,6 @@
 alias ls='LANG=C ls --group-directories-first --human-readable --classify --color=auto'
 
+# `ksh` disables the `--group-directories-first` flag
 [ -n "$KSH_VERSION" ] && alias ls='ls --human-readable --classify --color=auto'
 
 alias l=ls
